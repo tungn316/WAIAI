@@ -1,0 +1,3085 @@
+{
+  "110f01b8ae518a0ee41047bce5c22572988a435e10ead72dc1af793bba8ce0b0": {
+    "context": {
+      "property_id": "110f01b8ae518a0ee41047bce5c22572988a435e10ead72dc1af793bba8ce0b0",
+      "tier": "midscale",
+      "star_rating": null,
+      "city": "Pompei",
+      "country": "Italy",
+      "avg_guest_rating": 8.4,
+      "negative_review_count": 7,
+      "total_review_count": 131,
+      "top_negative_themes": [
+        {
+          "theme_key": "small_poorly_equipped_rooms",
+          "theme_label": "small, poorly equipped rooms",
+          "theme_summary": "Guests report rooms that feel more like a campsite than a hotel, with limited space and inadequate furnishings/amenities (e.g., no proper wardrobe).",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 0.286,
+          "snippet_mentions": 5,
+          "average_cluster_similarity": 0.801,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "sono camere di un campeggio non un hotel non ha le caratteristiche di un hotel le camere sono piccole senza un armadio e fredde",
+            "sono camere piccole con modesto arredamento e riscaldamento inadeguato",
+            "non è un hotel"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.7002,
+        "confidence": 0.2058,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 28,
+        "weighted_sentiment_sum": 1.669,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7222,
+        "confidence": 0.2442,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 40,
+        "weighted_sentiment_sum": 2.647,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.5429,
+        "confidence": 0.0568,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"tv\"]",
+        "review_mention_count": 4,
+        "weighted_sentiment_sum": -0.122,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"tv\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.681,
+        "confidence": 0.0876,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"tv\"]",
+        "review_mention_count": 7,
+        "weighted_sentiment_sum": 0.287,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.6247,
+        "confidence": 0.2058,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"tv\"]",
+        "review_mention_count": 28,
+        "weighted_sentiment_sum": 0.66,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.5348,
+        "confidence": 0.0964,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 8,
+        "weighted_sentiment_sum": 0.085,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.6586,
+        "confidence": 0.213,
+        "description_claimed": true,
+        "description_value": "hotel with a restaurant, steps from pompeii archaeological park<br>along with a restaurant, this smoke-free hotel has a bar/lounge and a snack bar/deli. free buffet breakfast and free wifi in public a",
+        "review_mention_count": 30,
+        "weighted_sentiment_sum": 1.066,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.6659,
+        "confidence": 0.0781,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using automated translation tools\", \"this property doesn't offer after-hours c",
+        "review_mention_count": 6,
+        "weighted_sentiment_sum": 0.201,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.6702,
+        "confidence": 0.2326,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed\"]",
+        "review_mention_count": 36,
+        "weighted_sentiment_sum": 1.425,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.5971,
+        "confidence": 0.0876,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 7,
+        "weighted_sentiment_sum": 0.21,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.6783,
+        "confidence": 0.2548,
+        "description_claimed": true,
+        "description_value": "located in |MASK|, hotel |MASK| |MASK| is in the historical district and near a train station. positano ferry landing and sorrento marina are worth checking out if an activity is on the agenda, while ",
+        "review_mention_count": 44,
+        "weighted_sentiment_sum": 1.867,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.559,
+        "confidence": 0.2924,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 61,
+        "weighted_sentiment_sum": 1.072,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.43,
+        "confidence": 0.1124,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 10,
+        "weighted_sentiment_sum": -0.208,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.6392,
+        "confidence": 0.0679,
+        "description_claimed": true,
+        "description_value": "[\"all guests, including children, must be present at check-in and show their government-issued photo id card or passport\", \"cash transactions at this property cannot exceed eur 5000, due to national r",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.098,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "db38b19b897dbece3e34919c662b3fd66d23b615395d11fb69264dd3a9b17723": {
+    "context": {
+      "property_id": "db38b19b897dbece3e34919c662b3fd66d23b615395d11fb69264dd3a9b17723",
+      "tier": "upscale",
+      "star_rating": 4.0,
+      "city": "Broomfield",
+      "country": "United States",
+      "avg_guest_rating": 9.2,
+      "negative_review_count": 55,
+      "total_review_count": 671,
+      "top_negative_themes": [
+        {
+          "theme_key": "dirty_rooms_and_poor_room_condition",
+          "theme_label": "dirty rooms and poor room condition",
+          "theme_summary": "Multiple reviews describe rooms in disrepair and not properly cleaned (e.g., food/trays dirty, hair on sheets/tub, refrigerator not working, missing/incorrect in-room items).",
+          "review_mentions": 39,
+          "share_of_negative_reviews": 0.709,
+          "snippet_mentions": 78,
+          "average_cluster_similarity": 0.787,
+          "source_cluster_ids": [
+            "c1",
+            "c8"
+          ],
+          "example_snippets": [
+            "while they were prompt and courteous in fixing the issues, for a resort style hotel, it was not worth the value",
+            "hotel room was in total disrepair",
+            "switched rooms the 2nd night and the room was dirty with food on the floor right by the bed, tray with ice bucket was really dirty, refrigerator not working and had to ask for an alarm clock wasn't in the room"
+          ]
+        },
+        {
+          "theme_key": "maintenance_issues_hot_tub_pool_and_showers",
+          "theme_label": "maintenance issues (hot tub/pool and showers)",
+          "theme_summary": "Guests report broken or poorly functioning facilities, including a hot tub/jacuzzi that was out of order/filthy and showers with no hot water or only scalding/insufficient warmth.",
+          "review_mentions": 8,
+          "share_of_negative_reviews": 0.145,
+          "snippet_mentions": 9,
+          "average_cluster_similarity": 0.821,
+          "source_cluster_ids": [
+            "c2",
+            "c4"
+          ],
+          "example_snippets": [
+            "the hot tub/ jacuzzi tub was cold, outdoors and no bubbles, ice machine out of order on my floor, no spa available during my stay",
+            "the hot tub was out of order during our stay",
+            "hot tub didn't work"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "staff_quality",
+        "cleanliness",
+        "room_condition",
+        "breakfast",
+        "pool",
+        "noise",
+        "wifi",
+        "temperature",
+        "check_in",
+        "value"
+      ],
+      "implicit_expectations": {
+        "staff_quality": "Attentive, proactive service defines the upscale experience.",
+        "pool": "Guests expect a pool at upscale properties."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.7638,
+        "confidence": 0.3878,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 134,
+        "weighted_sentiment_sum": 10.525,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7301,
+        "confidence": 0.502,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 330,
+        "weighted_sentiment_sum": 22.608,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.4915,
+        "confidence": 0.0964,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"hot_tub\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"",
+        "review_mention_count": 8,
+        "weighted_sentiment_sum": -0.228,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.7249,
+        "confidence": 0.401,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"hot_tub\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"",
+        "review_mention_count": 149,
+        "weighted_sentiment_sum": 8.764,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.7028,
+        "confidence": 0.2442,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"hot_tub\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"",
+        "review_mention_count": 40,
+        "weighted_sentiment_sum": 2.042,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.6587,
+        "confidence": 0.213,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"hot_tub\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"",
+        "review_mention_count": 30,
+        "weighted_sentiment_sum": 1.066,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.6284,
+        "confidence": 0.2264,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 34,
+        "weighted_sentiment_sum": 1.3,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.6595,
+        "confidence": 0.4443,
+        "description_claimed": true,
+        "description_value": "suburban resort with 3 restaurants, in the vicinity of butterfly pavilion<br>this smoke-free resort features 3 restaurants, 2 outdoor pools, and a full-service spa. free wifi in public areas is provid",
+        "review_mention_count": 210,
+        "weighted_sentiment_sum": 7.527,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.6844,
+        "confidence": 0.2693,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using automated translation tools\", \"the credit card used to book the reservat",
+        "review_mention_count": 50,
+        "weighted_sentiment_sum": 2.229,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.715,
+        "confidence": 0.3374,
+        "description_claimed": true,
+        "description_value": "[\"1 total (up to 70 lbs per pet)\", \"Food and water bowls are available\", \"Pets allowed for an extra charge of USD 125 per accommodation, per stay\", \"Service animals are welcome, and are exempt from fe",
+        "review_mention_count": 89,
+        "weighted_sentiment_sum": 4.925,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.5827,
+        "confidence": 0.2522,
+        "description_claimed": true,
+        "description_value": "4.0",
+        "review_mention_count": 43,
+        "weighted_sentiment_sum": 0.379,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.7421,
+        "confidence": 0.385,
+        "description_claimed": true,
+        "description_value": "located in broomfield, |MASK| |MASK| is in the business district and near the airport. butterfly pavilion is a popular area attraction and if an activity is on the agenda, coors brewery and red rocks ",
+        "review_mention_count": 131,
+        "weighted_sentiment_sum": 8.499,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.6966,
+        "confidence": 0.4957,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 314,
+        "weighted_sentiment_sum": 18.385,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.4551,
+        "confidence": 0.2522,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 43,
+        "weighted_sentiment_sum": -0.575,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.6602,
+        "confidence": 0.1396,
+        "description_claimed": true,
+        "description_value": "[\"a car is not required for transportation to and from this property\", \"pool access available from 8:00 am to 11:00 pm\", \"reservations are required for golf tee times, massage services, and spa treatm",
+        "review_mention_count": 14,
+        "weighted_sentiment_sum": 0.505,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "5f5a0cd8662f0ddf297f2d27358f680daab5d3ac22fd45a4e1c3c3ec2c101a12": {
+    "context": {
+      "property_id": "5f5a0cd8662f0ddf297f2d27358f680daab5d3ac22fd45a4e1c3c3ec2c101a12",
+      "tier": "midscale",
+      "star_rating": null,
+      "city": "Freudenstadt",
+      "country": "Germany",
+      "avg_guest_rating": 9.8,
+      "negative_review_count": 0,
+      "total_review_count": 6,
+      "top_negative_themes": [],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.5,
+        "confidence": 0.0,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": false,
+        "is_missing": true
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.6708,
+        "confidence": 0.0448,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.185,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"barbecue\", \"breakfast_available\", \"free_parking\", \"heater\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"toys\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"barbecue\", \"breakfast_available\", \"free_parking\", \"heater\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"toys\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"barbecue\", \"breakfast_available\", \"free_parking\", \"heater\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"toys\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"barbecue\", \"breakfast_available\", \"free_parking\", \"heater\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"toys\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.5,
+        "confidence": 0.0,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": false,
+        "is_missing": true
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.76,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "hotel with free parking, in the vicinity of freudenstadt marktplatz<br>this smoke-free hotel features a restaurant, a coffee shop/cafe, and dry cleaning. free wifi in public areas and free self parkin",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.149,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"guests can access their accommodation through a private entrance\", \"information provided by the property may be translated using automated translation tools\", \"the front desk is open monday - sunday",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.5,
+        "confidence": 0.0,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": false,
+        "is_missing": true
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "located in freudenstadt, |MASK| |MASK| is in a rural area. freudenstadt marktplatz and burg tannenfels are notable landmarks, and some of the area's activities can be experienced at freudenstadt golf ",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.6306,
+        "confidence": 0.0679,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.212,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.5,
+        "confidence": 0.0,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": false,
+        "is_missing": true
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"this property does not have elevators\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "3b984f3ba8df55b2609a1e33fd694cf8407842e1d833c9b4d993b07fc83a2820": {
+    "context": {
+      "property_id": "3b984f3ba8df55b2609a1e33fd694cf8407842e1d833c9b4d993b07fc83a2820",
+      "tier": "upscale",
+      "star_rating": 3.5,
+      "city": "San Isidro de El General",
+      "country": "Costa Rica",
+      "avg_guest_rating": 8.6,
+      "negative_review_count": 1,
+      "total_review_count": 42,
+      "top_negative_themes": [
+        {
+          "theme_key": "short_stay_suitability",
+          "theme_label": "short stay suitability",
+          "theme_summary": "Some guests indicate the property is only suitable for a very brief stay (e.g., “only good for one night”), suggesting limited comfort or value for longer visits.",
+          "review_mentions": 1,
+          "share_of_negative_reviews": 1.0,
+          "snippet_mentions": 1,
+          "average_cluster_similarity": 1.0,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "only good for one night"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "staff_quality",
+        "cleanliness",
+        "room_condition",
+        "breakfast",
+        "pool",
+        "noise",
+        "wifi",
+        "temperature",
+        "check_in",
+        "value"
+      ],
+      "implicit_expectations": {
+        "staff_quality": "Attentive, proactive service defines the upscale experience.",
+        "pool": "Guests expect a pool at upscale properties."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.8107,
+        "confidence": 0.0781,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 6,
+        "weighted_sentiment_sum": 0.589,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7894,
+        "confidence": 0.1124,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 10,
+        "weighted_sentiment_sum": 0.862,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.5583,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"balcony\", \"bar\", \"breakfast_included\", \"business_services\", \"elevator\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"room_service\",",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": -0.108,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"balcony\", \"bar\", \"breakfast_included\", \"business_services\", \"elevator\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"room_service\",",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.725,
+        "confidence": 0.0781,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"balcony\", \"bar\", \"breakfast_included\", \"business_services\", \"elevator\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"room_service\",",
+        "review_mention_count": 6,
+        "weighted_sentiment_sum": 0.345,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.7812,
+        "confidence": 0.0679,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"balcony\", \"bar\", \"breakfast_included\", \"business_services\", \"elevator\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\", \"room_service\",",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.406,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.4875,
+        "confidence": 0.0448,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": -0.014,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.6715,
+        "confidence": 0.1047,
+        "description_claimed": true,
+        "description_value": "hotel with a restaurant, in the vicinity of quebradas biological center<br>this smoke-free hotel features a restaurant, a bar/lounge, and a 24-hour business center. free continental breakfast and free",
+        "review_mention_count": 9,
+        "weighted_sentiment_sum": 0.354,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.76,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using automated translation tools\"]",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.149,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.6917,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed (service animals are welcome, and are exempt from fees)\"]",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.108,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.8125,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "3.5",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": 0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.7659,
+        "confidence": 0.0964,
+        "description_claimed": true,
+        "description_value": "san isidro de el general is home to lucky's hotel y casino. topolandia is a popular attraction and the area's natural beauty can be seen at nauyaca waterfalls and eco chontales waterfall. quebradas bi",
+        "review_mention_count": 8,
+        "weighted_sentiment_sum": 0.589,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.6288,
+        "confidence": 0.1858,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 23,
+        "weighted_sentiment_sum": 0.882,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.735,
+        "confidence": 0.0568,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 4,
+        "weighted_sentiment_sum": 0.318,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.7417,
+        "confidence": 0.0315,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.196,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "9a0043fd4258a1286db1e253ca591662b3aac849da12d0d4f67e08b8f59be65f": {
+    "context": {
+      "property_id": "9a0043fd4258a1286db1e253ca591662b3aac849da12d0d4f67e08b8f59be65f",
+      "tier": "midscale",
+      "star_rating": null,
+      "city": "Bochum",
+      "country": "Germany",
+      "avg_guest_rating": 8.4,
+      "negative_review_count": 4,
+      "total_review_count": 112,
+      "top_negative_themes": [],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.7639,
+        "confidence": 0.0679,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.429,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7314,
+        "confidence": 0.1198,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 11,
+        "weighted_sentiment_sum": 0.758,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.8125,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"breakfast_available\", \"free_parking\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\"]",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": 0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"breakfast_available\", \"free_parking\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"breakfast_available\", \"free_parking\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.7833,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"breakfast_available\", \"free_parking\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"restaurant\"]",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.257,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.9,
+        "confidence": 0.0568,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 4,
+        "weighted_sentiment_sum": 0.541,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.7433,
+        "confidence": 0.0876,
+        "description_claimed": true,
+        "description_value": "hotel in bochum with free parking<br>along with a restaurant, this smoke-free hotel has dry cleaning and free newspapers. free wifi in public areas and free self parking are also provided. other ameni",
+        "review_mention_count": 7,
+        "weighted_sentiment_sum": 0.456,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.54,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "[\"guests planning to arrive outside of normal check-in hours must contact the property in advance for check-in instructions and key retrieval information; front desk staffed during limited hours\", \"if",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": -0.149,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.7812,
+        "confidence": 0.0679,
+        "description_claimed": true,
+        "description_value": "[\"Pets allowed for an extra charge of EUR 5.50 per pet, per night\", \"Restrictions apply; for more information contact the property at the number on the booking confirmation\", \"Service animals are welc",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.406,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.65,
+        "confidence": 0.0448,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.162,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.8286,
+        "confidence": 0.0568,
+        "description_claimed": true,
+        "description_value": "located in bochum süd, a neighborhood in bochum, hotel |MASK| |MASK| is near a metro station. starlight express theater and westfalenhallen are cultural highlights of the area. looking to enjoy an eve",
+        "review_mention_count": 4,
+        "weighted_sentiment_sum": 0.42,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.5591,
+        "confidence": 0.2442,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 40,
+        "weighted_sentiment_sum": 0.704,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.7833,
+        "confidence": 0.0448,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.307,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"this property does not have elevators\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "e52d67a758ce4ad0229aacc97e5dfe89984c384c51a70208f9e0cc65c9cd4676": {
+    "context": {
+      "property_id": "e52d67a758ce4ad0229aacc97e5dfe89984c384c51a70208f9e0cc65c9cd4676",
+      "tier": "midscale",
+      "star_rating": 3.0,
+      "city": "Bangkok",
+      "country": "Thailand",
+      "avg_guest_rating": 8.8,
+      "negative_review_count": 2,
+      "total_review_count": 43,
+      "top_negative_themes": [
+        {
+          "theme_key": "noise_doors_ac_voices",
+          "theme_label": "noise (doors/AC/voices)",
+          "theme_summary": "Guests report significant noise from slamming doors, air conditioners, and voices (housekeeping/other guests), leading to poor sleep.",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 1.0,
+          "snippet_mentions": 6,
+          "average_cluster_similarity": 0.93,
+          "source_cluster_ids": [
+            "c1",
+            "c4",
+            "c5"
+          ],
+          "example_snippets": [
+            "egalement hôtel extrêmement bruyant, les portes des chambres claquent ret ésonnent très fortement jusque dans la chambre et dans le couloir des parties communes, les voix des femmes de ménage le matin et certains vacanciers la nuit m'ont tenu éveillé",
+            "hôtel bien situé par rapport a khan san road par contre hôtel très bruyant à cause des climatiseurs,ce qui enlève tout son charme) direction non réactif à ma demande de réglages des climatiseurs",
+            "passons l'accueil déplorable, la chambre est bien défraîchie, la porte de la salle de bain est dans un état moisie / crade et cerise sur le gâteau, un énorme cafard se baladait sur le sol de cette salle de bain"
+          ]
+        },
+        {
+          "theme_key": "poor_hostile_front_desk_service",
+          "theme_label": "poor/hostile front desk service",
+          "theme_summary": "Check-in interactions are described as unhelpful or unfriendly, including minimal/abrupt responses and lack of engagement.",
+          "review_mentions": 1,
+          "share_of_negative_reviews": 0.5,
+          "snippet_mentions": 2,
+          "average_cluster_similarity": 0.887,
+          "source_cluster_ids": [
+            "c2"
+          ],
+          "example_snippets": [
+            "alors je répondis oui et ensuite elle m'a dit un seul mot passeport sans faire aucune phrase et toujours sans aucun sourire elle m'a donné la clé en disant second floor",
+            "premièrement, l'arrivée à l'hôtel, la gardienne de prison qui est derrière son comptoir, n'a pas répondu à mon bonjour en thai, elle ne sourit pas et m'a dit trois mots sous forme d'interrogatoire you have booking ?"
+          ]
+        },
+        {
+          "theme_key": "access_amenities_issues_no_elevator",
+          "theme_label": "access/amenities issues (no elevator)",
+          "theme_summary": "The hotel lacks an elevator, and staff reportedly refused assistance with carrying luggage.",
+          "review_mentions": 1,
+          "share_of_negative_reviews": 0.5,
+          "snippet_mentions": 1,
+          "average_cluster_similarity": 1.0,
+          "source_cluster_ids": [
+            "c3"
+          ],
+          "example_snippets": [
+            "j'ai eu la folie de demander gentiment s'il serait possible d'avoir une aide pour monter mon gros sac car il n'y a pas d'ascenseur et pour seule réponse un no !"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.8927,
+        "confidence": 0.1267,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 12,
+        "weighted_sentiment_sum": 1.403,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.8127,
+        "confidence": 0.1198,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 11,
+        "weighted_sentiment_sum": 1.024,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.65,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_available\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"outdoor_space\", \"tv\"]",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_available\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"outdoor_space\", \"tv\"]",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.675,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_available\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"outdoor_space\", \"tv\"]",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": -0.014,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.76,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_available\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"outdoor_space\", \"tv\"]",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.149,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.8762,
+        "confidence": 0.0781,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 6,
+        "weighted_sentiment_sum": 0.713,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.8236,
+        "confidence": 0.1047,
+        "description_claimed": true,
+        "description_value": "hotel with free parking, near khaosan road<br>along with a 24-hour front desk, this hotel has tour/ticket assistance and a garden. free wifi in public areas and free self parking are also provided. ot",
+        "review_mention_count": 9,
+        "weighted_sentiment_sum": 0.848,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"guests must contact |MASK| property in advance for check-in instructions; front desk staff will greet guests on arrival at |MASK| property\", \"if you are planning to arrive after 10 pm please contact",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.9062,
+        "confidence": 0.0679,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed\"]",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.677,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.6071,
+        "confidence": 0.0568,
+        "description_claimed": true,
+        "description_value": "3.0",
+        "review_mention_count": 4,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.8409,
+        "confidence": 0.1198,
+        "description_claimed": true,
+        "description_value": "located in bangkok city centre, a neighborhood in bangkok, |MASK| |MASK| |MASK| |MASK| is in a shopping district. grand palace and temple of |MASK| emerald buddha are notable landmarks, and travelers ",
+        "review_mention_count": 11,
+        "weighted_sentiment_sum": 1.096,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.6766,
+        "confidence": 0.1982,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 26,
+        "weighted_sentiment_sum": 1.367,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.625,
+        "confidence": 0.0448,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.7222,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"this property does not have elevators\"]",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.158,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "ff26cdda236b233f7c481f0e896814075ac6bed335e162e0ff01d5491343f838": {
+    "context": {
+      "property_id": "ff26cdda236b233f7c481f0e896814075ac6bed335e162e0ff01d5491343f838",
+      "tier": "upscale",
+      "star_rating": 3.5,
+      "city": "Frisco",
+      "country": "United States",
+      "avg_guest_rating": 9.2,
+      "negative_review_count": 50,
+      "total_review_count": 717,
+      "top_negative_themes": [
+        {
+          "theme_key": "missing_amenities_and_housekeeping_room_upkeep",
+          "theme_label": "missing amenities and housekeeping/room upkeep",
+          "theme_summary": "Reviews mention lack of an in-room refrigerator and inadequate housekeeping/room cleaning (e.g., needing to request cleaning for multiple days).",
+          "review_mentions": 29,
+          "share_of_negative_reviews": 0.58,
+          "snippet_mentions": 59,
+          "average_cluster_similarity": 0.74,
+          "source_cluster_ids": [
+            "c1",
+            "c4"
+          ],
+          "example_snippets": [
+            "no one came to clean the room for 3 days and front desk staff when explain issue seemed careless",
+            "my issue with this stay was that we had to request our room to be cleaned",
+            "housekeepers were more friendly than front desk we will not return here"
+          ]
+        },
+        {
+          "theme_key": "maintenance_problems_in_bathrooms",
+          "theme_label": "maintenance problems in bathrooms",
+          "theme_summary": "Guests report shower leaks and improper shower door mounting that caused water pooling and bathroom flooding.",
+          "review_mentions": 6,
+          "share_of_negative_reviews": 0.12,
+          "snippet_mentions": 6,
+          "average_cluster_similarity": 0.796,
+          "source_cluster_ids": [
+            "c2"
+          ],
+          "example_snippets": [
+            "the ceiling had a leak in the shower and was dripping down from it",
+            "the shower door was not mounted correctly and the water leaked all over the bathroom floor",
+            "shower was pooling water"
+          ]
+        },
+        {
+          "theme_key": "dirty_rooms_and_stained_bedding",
+          "theme_label": "dirty rooms and stained bedding",
+          "theme_summary": "Multiple reviews cite visible cleanliness issues such as stained sheets/bed coverings and dirty or stained bedding.",
+          "review_mentions": 4,
+          "share_of_negative_reviews": 0.08,
+          "snippet_mentions": 7,
+          "average_cluster_similarity": 0.862,
+          "source_cluster_ids": [
+            "c5",
+            "c6"
+          ],
+          "example_snippets": [
+            "i noticed the decorative bed covering on both beds were dirty",
+            "the sheets had some unpleasant stains",
+            "on the day of checkout we noticed yellow fluid stains on 1 bed and old dried blood drips on the other"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "staff_quality",
+        "cleanliness",
+        "room_condition",
+        "breakfast",
+        "pool",
+        "noise",
+        "wifi",
+        "temperature",
+        "check_in",
+        "value"
+      ],
+      "implicit_expectations": {
+        "staff_quality": "Attentive, proactive service defines the upscale experience.",
+        "pool": "Guests expect a pool at upscale properties."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.7863,
+        "confidence": 0.4581,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 234,
+        "weighted_sentiment_sum": 19.949,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7278,
+        "confidence": 0.4911,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 303,
+        "weighted_sentiment_sum": 20.554,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.5625,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"grocery\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"no_",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": -0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.4823,
+        "confidence": 0.2095,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"grocery\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"no_",
+        "review_mention_count": 29,
+        "weighted_sentiment_sum": -0.769,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.7037,
+        "confidence": 0.2058,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"grocery\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"no_",
+        "review_mention_count": 28,
+        "weighted_sentiment_sum": 1.438,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.599,
+        "confidence": 0.2782,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"crib\", \"elevator\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"grocery\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"no_",
+        "review_mention_count": 54,
+        "weighted_sentiment_sum": 0.785,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.6434,
+        "confidence": 0.2647,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 48,
+        "weighted_sentiment_sum": 2.05,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.6833,
+        "confidence": 0.4665,
+        "description_claimed": true,
+        "description_value": "art deco hotel with free parking, 4-minute walk to comerica center<br>a restaurant, a 24-hour fitness center, and a bar/lounge are available at this smoke-free hotel. free wifi in public areas, free s",
+        "review_mention_count": 250,
+        "weighted_sentiment_sum": 11.054,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.5589,
+        "confidence": 0.3016,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using automated translation tools\"]",
+        "review_mention_count": 66,
+        "weighted_sentiment_sum": 0.027,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.8084,
+        "confidence": 0.3553,
+        "description_claimed": true,
+        "description_value": "[\"2 total pets\", \"Food and water bowls are available\", \"Pets allowed for an extra charge of USD 50 per pet, per night (maximum USD 75 per stay)\", \"Pets cannot be left unattended\", \"Restrictions apply;",
+        "review_mention_count": 103,
+        "weighted_sentiment_sum": 9.086,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.7074,
+        "confidence": 0.2356,
+        "description_claimed": true,
+        "description_value": "3.5",
+        "review_mention_count": 37,
+        "weighted_sentiment_sum": 1.949,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.7663,
+        "confidence": 0.4068,
+        "description_claimed": true,
+        "description_value": "located in frisco, hotel |MASK| frisco by |MASK| is in the city center. travelers eager for a bit of culture can stop by museum of the american railroad, while those who have shopping on the agenda ma",
+        "review_mention_count": 156,
+        "weighted_sentiment_sum": 11.448,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.6986,
+        "confidence": 0.5092,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 349,
+        "weighted_sentiment_sum": 20.639,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.4093,
+        "confidence": 0.2924,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 61,
+        "weighted_sentiment_sum": -1.648,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.6829,
+        "confidence": 0.1569,
+        "description_claimed": true,
+        "description_value": "[\"children under 14 years old are not allowed in the swimming pool or fitness facility without adult supervision\", \"only registered guests are allowed in the guestrooms\", \"pool access available from 8",
+        "review_mention_count": 17,
+        "weighted_sentiment_sum": 0.749,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "fa014137b3ea9af6a90c0a86a1d099e46f7e56d6eb33db1ad1ec4bdac68c3caa": {
+    "context": {
+      "property_id": "fa014137b3ea9af6a90c0a86a1d099e46f7e56d6eb33db1ad1ec4bdac68c3caa",
+      "tier": "midscale",
+      "star_rating": 2.5,
+      "city": "Monterey",
+      "country": "United States",
+      "avg_guest_rating": 8.8,
+      "negative_review_count": 18,
+      "total_review_count": 547,
+      "top_negative_themes": [
+        {
+          "theme_key": "dirty_rooms_and_poor_bathroom_cleanliness",
+          "theme_label": "dirty rooms and poor bathroom cleanliness",
+          "theme_summary": "Multiple reviews cite visibly dirty rooms and bathrooms, including stains, mold, and used/disgusting toiletries.",
+          "review_mentions": 4,
+          "share_of_negative_reviews": 0.222,
+          "snippet_mentions": 5,
+          "average_cluster_similarity": 0.768,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "bath tub was disgusting, old towels and crappy soaps and shampoo",
+            "the rooms are dated and very dirty!",
+            "room had dirty used hand soap bar"
+          ]
+        },
+        {
+          "theme_key": "street_noise_and_lack_of_sleep",
+          "theme_label": "street noise and lack of sleep",
+          "theme_summary": "Several guests report rooms facing the street with loud vehicle/truck noise at night, making it difficult to sleep.",
+          "review_mentions": 4,
+          "share_of_negative_reviews": 0.222,
+          "snippet_mentions": 4,
+          "average_cluster_similarity": 0.792,
+          "source_cluster_ids": [
+            "c2"
+          ],
+          "example_snippets": [
+            "i give such low review because we got the room face to foam st, very noisy at night time, vehicle sounds are terrible, i can't fall asleep, in the morning 4am",
+            "one side of the hotel is very close to street that has loud trucks/cars passing by at night",
+            "the beds were very hard did not sleep good especially from the street noise smallest bathroom i have ever seen in a hotel could not even use the cart for luggage do to many different levels of rooms on each floor and elevator only stops at one level not very convenient at all i personally would not stay a second time sorry"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.7962,
+        "confidence": 0.4027,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 151,
+        "weighted_sentiment_sum": 13.315,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.8089,
+        "confidence": 0.4375,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 199,
+        "weighted_sentiment_sum": 18.301,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.6794,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"crib\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"no_smoking\", \"outdoor_space\"]",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.088,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.562,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"crib\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"no_smoking\", \"outdoor_space\"]",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": -0.119,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.7628,
+        "confidence": 0.3633,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"crib\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"no_smoking\", \"outdoor_space\"]",
+        "review_mention_count": 110,
+        "weighted_sentiment_sum": 7.94,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.8139,
+        "confidence": 0.4248,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"crib\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"no_smoking\", \"outdoor_space\"]",
+        "review_mention_count": 180,
+        "weighted_sentiment_sum": 16.226,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.6144,
+        "confidence": 0.2803,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 55,
+        "weighted_sentiment_sum": 1.873,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.7371,
+        "confidence": 0.4375,
+        "description_claimed": true,
+        "description_value": "hotel with free parking, steps from cannery row<br>a 24-hour business center, a microwave in a common area, and a business center are available at this smoke-free hotel. free buffet breakfast is provi",
+        "review_mention_count": 199,
+        "weighted_sentiment_sum": 12.564,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.756,
+        "confidence": 0.202,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using automated translation tools\"]",
+        "review_mention_count": 27,
+        "weighted_sentiment_sum": 1.884,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.816,
+        "confidence": 0.4508,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed\"]",
+        "review_mention_count": 221,
+        "weighted_sentiment_sum": 20.091,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.7325,
+        "confidence": 0.2232,
+        "description_claimed": true,
+        "description_value": "2.5",
+        "review_mention_count": 33,
+        "weighted_sentiment_sum": 2.03,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.7952,
+        "confidence": 0.4881,
+        "description_claimed": true,
+        "description_value": "located near the beach, |MASK| inn |MASK| monterey-cannery row by |MASK| is in new monterey, a neighborhood in monterey. fisherman's wharf and pebble beach golf links are worth checking out if an acti",
+        "review_mention_count": 296,
+        "weighted_sentiment_sum": 24.739,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.7248,
+        "confidence": 0.471,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 259,
+        "weighted_sentiment_sum": 17.339,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.6168,
+        "confidence": 0.1768,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 21,
+        "weighted_sentiment_sum": 0.73,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.6525,
+        "confidence": 0.1396,
+        "description_claimed": true,
+        "description_value": "[\"parking height restrictions apply\", \"this property welcomes guests of all sexual orientations and gender identities (lgbtq+ friendly)\"]",
+        "review_mention_count": 14,
+        "weighted_sentiment_sum": 0.467,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "823fb2499b4e37d99acb65e7198e75965d6496fd1c579f976205c0e6179206df": {
+    "context": {
+      "property_id": "823fb2499b4e37d99acb65e7198e75965d6496fd1c579f976205c0e6179206df",
+      "tier": "midscale",
+      "star_rating": null,
+      "city": "Rome",
+      "country": "Italy",
+      "avg_guest_rating": 9.0,
+      "negative_review_count": 19,
+      "total_review_count": 618,
+      "top_negative_themes": [
+        {
+          "theme_key": "excessive_heat_sun_exposure_in_rooms",
+          "theme_label": "excessive heat/sun exposure in rooms",
+          "theme_summary": "Guests report rooms becoming extremely warm due to direct sunlight, with opening windows not providing relief.",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 0.105,
+          "snippet_mentions": 2,
+          "average_cluster_similarity": 0.915,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "the room is very very warm due to the sun shining to the room",
+            "our room was literally 90 degrees and opening the window with full sun doesn't help"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.8536,
+        "confidence": 0.373,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 119,
+        "weighted_sentiment_sum": 12.529,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7841,
+        "confidence": 0.4323,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 191,
+        "weighted_sentiment_sum": 16.158,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.6544,
+        "confidence": 0.1124,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"elevator\", \"fitness_equipment\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"restaurant\", \"room_service\", \"soundproof_room\"]",
+        "review_mention_count": 10,
+        "weighted_sentiment_sum": 0.34,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.7208,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"elevator\", \"fitness_equipment\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"restaurant\", \"room_service\", \"soundproof_room\"]",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": 0.036,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.7652,
+        "confidence": 0.1672,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"elevator\", \"fitness_equipment\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"restaurant\", \"room_service\", \"soundproof_room\"]",
+        "review_mention_count": 19,
+        "weighted_sentiment_sum": 1.387,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.8175,
+        "confidence": 0.329,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_available\", \"business_services\", \"elevator\", \"fitness_equipment\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"restaurant\", \"room_service\", \"soundproof_room\"]",
+        "review_mention_count": 83,
+        "weighted_sentiment_sum": 7.589,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.6234,
+        "confidence": 0.1768,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 21,
+        "weighted_sentiment_sum": 0.771,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.764,
+        "confidence": 0.4329,
+        "description_claimed": true,
+        "description_value": "hotel with a restaurant, 7-minute walk to via nazionale<br>this hotel features a restaurant, a fitness center, and a bar/lounge. wifi in public areas is free. other amenities include a snack bar/deli,",
+        "review_mention_count": 192,
+        "weighted_sentiment_sum": 13.941,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.6245,
+        "confidence": 0.1982,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using automated translation tools\", \"this property doesn't offer after-hours c",
+        "review_mention_count": 26,
+        "weighted_sentiment_sum": 0.611,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.8025,
+        "confidence": 0.4419,
+        "description_claimed": true,
+        "description_value": "[\"2 total (up to 44 lbs per pet)\", \"Pets allowed for an extra charge of EUR 30 per pet, per stay\", \"Service animals are welcome, and are exempt from fees\", \"Welcoming dogs only\"]",
+        "review_mention_count": 206,
+        "weighted_sentiment_sum": 17.744,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.7377,
+        "confidence": 0.2414,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 39,
+        "weighted_sentiment_sum": 2.76,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.7919,
+        "confidence": 0.4547,
+        "description_claimed": true,
+        "description_value": "located in rome city centre, a neighborhood in rome, |MASK| |MASK| |MASK| hotel |MASK| |MASK| is near a metro station. the area's natural beauty can be seen at villa borghese and circus maximus, while",
+        "review_mention_count": 228,
+        "weighted_sentiment_sum": 18.788,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.7013,
+        "confidence": 0.4902,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 301,
+        "weighted_sentiment_sum": 18.044,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.7141,
+        "confidence": 0.2469,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 41,
+        "weighted_sentiment_sum": 2.613,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.7319,
+        "confidence": 0.1814,
+        "description_claimed": true,
+        "description_value": "[\"all guests, including children, must be present at check-in and show their government-issued photo id card or passport\", \"cash transactions at this property cannot exceed eur 5000, due to national r",
+        "review_mention_count": 22,
+        "weighted_sentiment_sum": 1.349,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "a036cbe1d9fbf9cba088075d1b4d966ee871df55aa4a58ba0da23c116c499052": {
+    "context": {
+      "property_id": "a036cbe1d9fbf9cba088075d1b4d966ee871df55aa4a58ba0da23c116c499052",
+      "tier": "upscale",
+      "star_rating": 3.5,
+      "city": "Mbombela",
+      "country": "South Africa",
+      "avg_guest_rating": 8.6,
+      "negative_review_count": 0,
+      "total_review_count": 8,
+      "top_negative_themes": [],
+      "priority_aspects": [
+        "staff_quality",
+        "cleanliness",
+        "room_condition",
+        "breakfast",
+        "pool",
+        "noise",
+        "wifi",
+        "temperature",
+        "check_in",
+        "value"
+      ],
+      "implicit_expectations": {
+        "staff_quality": "Attentive, proactive service defines the upscale experience.",
+        "pool": "Guests expect a pool at upscale properties."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.75,
+        "confidence": 0.0167,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": 0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.5,
+        "confidence": 0.0315,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.5625,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"business_services\", \"crib\", \"elevator\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"pool\", \"restaur",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": -0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"business_services\", \"crib\", \"elevator\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"pool\", \"restaur",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"business_services\", \"crib\", \"elevator\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"pool\", \"restaur",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.8,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"bar\", \"breakfast_included\", \"business_services\", \"crib\", \"elevator\", \"free_parking\", \"frontdesk_24_hour\", \"housekeeping\", \"internet\", \"laundry\", \"no_smoking\", \"outdoor_space\", \"pool\", \"restaur",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.284,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.5,
+        "confidence": 0.0,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": false,
+        "is_missing": true
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.65,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "suburban hotel with an outdoor pool and free breakfast<br>along with an outdoor pool, this smoke-free hotel has a restaurant and a bar/lounge. free continental breakfast, free wifi in public areas, an",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "[\"guests must contact the property in advance for check-in instructions; front desk staff will greet guests on arrival at the property\", \"if you are planning to arrive after 10 pm please contact the p",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.6812,
+        "confidence": 0.0679,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed\"]",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": 0.189,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.75,
+        "confidence": 0.4,
+        "description_claimed": true,
+        "description_value": "3.5",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.65,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "located in mbombela, |MASK| mbombela is in a shopping district and in a national park. ster-kinekor i'langa mall and nelspruit golf club are worth checking out if an activity is on the agenda, while t",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.041,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.5125,
+        "confidence": 0.0448,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": 0.014,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.5,
+        "confidence": 0.0,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 0,
+        "weighted_sentiment_sum": 0.0,
+        "last_confirmed_days_ago": null,
+        "is_stale": false,
+        "is_missing": true
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.8125,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"free in-room wifi is limited to 45 minutes per day (3-device limit); wifi in public areas is also free for up to 45 minutes per day (3-device limit)\"]",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": 0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "3216b1b7885bffdb336265a8de7322ba0cd477cfb3d4f99d19acf488f76a1941": {
+    "context": {
+      "property_id": "3216b1b7885bffdb336265a8de7322ba0cd477cfb3d4f99d19acf488f76a1941",
+      "tier": "budget",
+      "star_rating": 2.0,
+      "city": "Bell Gardens",
+      "country": "United States",
+      "avg_guest_rating": 8.4,
+      "negative_review_count": 110,
+      "total_review_count": 690,
+      "top_negative_themes": [
+        {
+          "theme_key": "dirty_rooms_and_bad_odors",
+          "theme_label": "dirty rooms and bad odors",
+          "theme_summary": "Multiple reviews report rooms that are unclean/filthy and have strong unpleasant smells (including cigarette smoke and other odors), often in non-smoking rooms.",
+          "review_mentions": 79,
+          "share_of_negative_reviews": 0.718,
+          "snippet_mentions": 166,
+          "average_cluster_similarity": 0.754,
+          "source_cluster_ids": [
+            "c1",
+            "c3",
+            "c7"
+          ],
+          "example_snippets": [
+            "the room itself was dirty",
+            "the hotel room was filthy, and smelled bad",
+            "the room was unclean"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "value",
+        "noise",
+        "wifi",
+        "check_in",
+        "bathroom",
+        "room_condition",
+        "safety",
+        "parking",
+        "location"
+      ],
+      "implicit_expectations": {
+        "cleanliness": "Even budget travellers expect basic cleanliness.",
+        "safety": "Safety is a baseline expectation at any price point."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.6656,
+        "confidence": 0.4536,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 226,
+        "weighted_sentiment_sum": 11.146,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.7183,
+        "confidence": 0.4123,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 163,
+        "weighted_sentiment_sum": 10.594,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.5281,
+        "confidence": 0.1334,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"business_services\", \"crib\", \"extra_bed\", \"free_parking\", \"frontdesk_24_hour\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"tv\"]",
+        "review_mention_count": 13,
+        "weighted_sentiment_sum": -0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.6167,
+        "confidence": 0.0448,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"business_services\", \"crib\", \"extra_bed\", \"free_parking\", \"frontdesk_24_hour\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"tv\"]",
+        "review_mention_count": 3,
+        "weighted_sentiment_sum": -0.014,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.6938,
+        "confidence": 0.3152,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"business_services\", \"crib\", \"extra_bed\", \"free_parking\", \"frontdesk_24_hour\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"tv\"]",
+        "review_mention_count": 74,
+        "weighted_sentiment_sum": 3.544,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.6248,
+        "confidence": 0.213,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"business_services\", \"crib\", \"extra_bed\", \"free_parking\", \"frontdesk_24_hour\", \"heater\", \"housekeeping\", \"internet\", \"laundry\", \"microwave\", \"tv\"]",
+        "review_mention_count": 30,
+        "weighted_sentiment_sum": 0.708,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.4998,
+        "confidence": 0.2998,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 65,
+        "weighted_sentiment_sum": -0.004,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.6344,
+        "confidence": 0.4618,
+        "description_claimed": true,
+        "description_value": "motel in |MASK| gardens with free parking<br>a 24-hour business center, a business center, and laundry facilities are available at this motel. free wifi in public areas and free self parking are also ",
+        "review_mention_count": 241,
+        "weighted_sentiment_sum": 6.502,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.5939,
+        "confidence": 0.2414,
+        "description_claimed": true,
+        "description_value": "[\"an adult age 18 or older must assume all liability for the booking\", \"front desk staff will greet guests on arrival at the property\", \"information provided by the property may be translated using au",
+        "review_mention_count": 39,
+        "weighted_sentiment_sum": 0.496,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.6595,
+        "confidence": 0.2647,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed (service animals are welcome, and are exempt from fees)\"]",
+        "review_mention_count": 48,
+        "weighted_sentiment_sum": 1.719,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.6829,
+        "confidence": 0.2623,
+        "description_claimed": true,
+        "description_value": "2.0",
+        "review_mention_count": 47,
+        "weighted_sentiment_sum": 2.071,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.6525,
+        "confidence": 0.3401,
+        "description_claimed": true,
+        "description_value": "|MASK|, a neighborhood in |MASK| gardens, is home to |MASK| inn & |MASK| by |MASK| |MASK| los angeles area. walt disney concert hall and kia forum are cultural highlights, and travelers looking to sho",
+        "review_mention_count": 91,
+        "weighted_sentiment_sum": 3.034,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.5806,
+        "confidence": 0.4705,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 258,
+        "weighted_sentiment_sum": 6.19,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.4926,
+        "confidence": 0.329,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 83,
+        "weighted_sentiment_sum": -0.184,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.6534,
+        "confidence": 0.2442,
+        "description_claimed": true,
+        "description_value": "[\"this property does not have elevators\"]",
+        "review_mention_count": 40,
+        "weighted_sentiment_sum": 1.348,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "f2d8d9557208d58577e9df7ff34e42bf86fb5b10fdfae0c3040d14c374a2a2b9": {
+    "context": {
+      "property_id": "f2d8d9557208d58577e9df7ff34e42bf86fb5b10fdfae0c3040d14c374a2a2b9",
+      "tier": "budget",
+      "star_rating": 2.0,
+      "city": "New Smyrna Beach",
+      "country": "United States",
+      "avg_guest_rating": 7.2,
+      "negative_review_count": 20,
+      "total_review_count": 141,
+      "top_negative_themes": [
+        {
+          "theme_key": "room_condition_outdated_insufficient_housekeeping",
+          "theme_label": "room condition outdated/insufficient housekeeping",
+          "theme_summary": "Multiple reviews describe rooms as old/outdated and in some cases missing housekeeping elements such as maid service or linen exchange.",
+          "review_mentions": 15,
+          "share_of_negative_reviews": 0.75,
+          "snippet_mentions": 41,
+          "average_cluster_similarity": 0.742,
+          "source_cluster_ids": [
+            "c1",
+            "c3"
+          ],
+          "example_snippets": [
+            "the room was terrible",
+            "room was old & outdated",
+            "was very disappointed in the rooms"
+          ]
+        },
+        {
+          "theme_key": "dirty_poorly_maintained_rooms_smell_windows",
+          "theme_label": "dirty/poorly maintained rooms (smell, windows)",
+          "theme_summary": "Guests report unpleasant odors and visible lack of upkeep, including dirty/salt-crusted or unclean windows and broken blinds/sliding-door issues.",
+          "review_mentions": 3,
+          "share_of_negative_reviews": 0.15,
+          "snippet_mentions": 4,
+          "average_cluster_similarity": 0.901,
+          "source_cluster_ids": [
+            "c7",
+            "c6"
+          ],
+          "example_snippets": [
+            "odd smell inside room and window/sliding door blinds are broken",
+            "terrible smells in the room",
+            "sat on couch and could barely see outside pool and ocean, windows looked like they have not been cleaned in months"
+          ]
+        },
+        {
+          "theme_key": "post_hurricane_construction_repairs",
+          "theme_label": "post-hurricane construction/repairs",
+          "theme_summary": "Some guests note the property is still under construction or undergoing repairs related to hurricane damage, affecting the condition of the building/rooms.",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 0.1,
+          "snippet_mentions": 3,
+          "average_cluster_similarity": 0.842,
+          "source_cluster_ids": [
+            "c5"
+          ],
+          "example_snippets": [
+            "major work was being done to the building from the damage down by hurricanes irma & matthew",
+            "dirty, and still under construction from irma",
+            "being repaired after 2 hurricanes and not ready the location was great and the staff outstanding"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "value",
+        "noise",
+        "wifi",
+        "check_in",
+        "bathroom",
+        "room_condition",
+        "safety",
+        "parking",
+        "location"
+      ],
+      "implicit_expectations": {
+        "cleanliness": "Even budget travellers expect basic cleanliness.",
+        "safety": "Safety is a baseline expectation at any price point."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.664,
+        "confidence": 0.2782,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 54,
+        "weighted_sentiment_sum": 2.636,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.656,
+        "confidence": 0.2623,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 47,
+        "weighted_sentiment_sum": 2.183,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.8125,
+        "confidence": 0.0167,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"barbecue\", \"free_parking\", \"heater\", \"housekeeping\", \"internet\", \"kids_pool\", \"kitchen\", \"microwave\", \"no_smoking\", \"outdoor_space\", \"pool\", \"tv\"]",
+        "review_mention_count": 1,
+        "weighted_sentiment_sum": 0.135,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.7158,
+        "confidence": 0.1982,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"barbecue\", \"free_parking\", \"heater\", \"housekeeping\", \"internet\", \"kids_pool\", \"kitchen\", \"microwave\", \"no_smoking\", \"outdoor_space\", \"pool\", \"tv\"]",
+        "review_mention_count": 26,
+        "weighted_sentiment_sum": 1.446,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.5985,
+        "confidence": 0.1456,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"barbecue\", \"free_parking\", \"heater\", \"housekeeping\", \"internet\", \"kids_pool\", \"kitchen\", \"microwave\", \"no_smoking\", \"outdoor_space\", \"pool\", \"tv\"]",
+        "review_mention_count": 15,
+        "weighted_sentiment_sum": 0.216,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.74,
+        "confidence": 0.0315,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"barbecue\", \"free_parking\", \"heater\", \"housekeeping\", \"internet\", \"kids_pool\", \"kitchen\", \"microwave\", \"no_smoking\", \"outdoor_space\", \"pool\", \"tv\"]",
+        "review_mention_count": 2,
+        "weighted_sentiment_sum": 0.122,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.3847,
+        "confidence": 0.0679,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 5,
+        "weighted_sentiment_sum": -0.187,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.6308,
+        "confidence": 0.3168,
+        "description_claimed": true,
+        "description_value": "oceanfront with outdoor pool, near little theatre of new smyrna beach<br>guests at this beach hotel will appreciate convenient onsite amenities such as a children's pool and barbecue grills. <br>|MASK",
+        "review_mention_count": 75,
+        "weighted_sentiment_sum": 1.928,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.3753,
+        "confidence": 0.1198,
+        "description_claimed": true,
+        "description_value": "[\"guests must contact the property in advance for check-in instructions; front desk staffed during limited hours\", \"if you are planning to arrive after 8:00 pm please contact the property in advance u",
+        "review_mention_count": 11,
+        "weighted_sentiment_sum": -0.706,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.6816,
+        "confidence": 0.2924,
+        "description_claimed": true,
+        "description_value": "[\"Pets not allowed\"]",
+        "review_mention_count": 61,
+        "weighted_sentiment_sum": 2.66,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.6748,
+        "confidence": 0.1942,
+        "description_claimed": true,
+        "description_value": "2.0",
+        "review_mention_count": 25,
+        "weighted_sentiment_sum": 1.03,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.7151,
+        "confidence": 0.3069,
+        "description_claimed": true,
+        "description_value": "located on the beach, |MASK| |MASK| inn is in coronado beach, a neighborhood in new smyrna beach. little theatre of new smyrna beach and marine science center are cultural highlights, and some of the ",
+        "review_mention_count": 69,
+        "weighted_sentiment_sum": 3.823,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.618,
+        "confidence": 0.3688,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 115,
+        "weighted_sentiment_sum": 4.042,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.5317,
+        "confidence": 0.2058,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 28,
+        "weighted_sentiment_sum": 0.264,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.5429,
+        "confidence": 0.1124,
+        "description_claimed": true,
+        "description_value": "[\"this property does not have elevators\"]",
+        "review_mention_count": 10,
+        "weighted_sentiment_sum": -0.052,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  },
+  "7d027ef72c02eaa17af3c993fd5dba50d17b41a6280389a46c13c7e2c32a5b06": {
+    "context": {
+      "property_id": "7d027ef72c02eaa17af3c993fd5dba50d17b41a6280389a46c13c7e2c32a5b06",
+      "tier": "midscale",
+      "star_rating": 2.5,
+      "city": "Ocala",
+      "country": "United States",
+      "avg_guest_rating": 6.6,
+      "negative_review_count": 163,
+      "total_review_count": 534,
+      "top_negative_themes": [
+        {
+          "theme_key": "dirty_rooms_and_poor_housekeeping",
+          "theme_label": "dirty rooms and poor housekeeping",
+          "theme_summary": "Multiple reviews report rooms not being cleaned during the stay and generally dirty conditions, including guests having to clean areas themselves or request supplies.",
+          "review_mentions": 131,
+          "share_of_negative_reviews": 0.804,
+          "snippet_mentions": 321,
+          "average_cluster_similarity": 0.701,
+          "source_cluster_ids": [
+            "c1",
+            "c6",
+            "c7"
+          ],
+          "example_snippets": [
+            "i didn't like the fact , that the staff didn't clean the room my entire stay",
+            "once i checked in later, the room was horrible",
+            "the room was dirty"
+          ]
+        },
+        {
+          "theme_key": "noise_from_highway_interstate_location",
+          "theme_label": "noise from highway/interstate location",
+          "theme_summary": "Guests consistently describe the property as extremely noisy due to its proximity to I-75/expressway, affecting day and night rest.",
+          "review_mentions": 17,
+          "share_of_negative_reviews": 0.104,
+          "snippet_mentions": 22,
+          "average_cluster_similarity": 0.732,
+          "source_cluster_ids": [
+            "c4",
+            "c8"
+          ],
+          "example_snippets": [
+            "this hotel is immediately off an exit for highway i-75, so was very noisy during the day and night",
+            "hotel's location is on a very busy/noisy street and 200 feet from interstate 75",
+            "very noisy also since it is by the interstate"
+          ]
+        }
+      ],
+      "priority_aspects": [
+        "cleanliness",
+        "staff_quality",
+        "wifi",
+        "breakfast",
+        "noise",
+        "room_condition",
+        "value",
+        "check_in",
+        "parking",
+        "pool"
+      ],
+      "implicit_expectations": {
+        "wifi": "Reliable Wi-Fi is expected at midscale properties.",
+        "breakfast": "Breakfast is a common midscale differentiator."
+      }
+    },
+    "beliefs": {
+      "cleanliness": {
+        "aspect": "cleanliness",
+        "score": 0.5175,
+        "confidence": 0.4176,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 170,
+        "weighted_sentiment_sum": 0.885,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "staff_quality": {
+        "aspect": "staff_quality",
+        "score": 0.5188,
+        "confidence": 0.4282,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 185,
+        "weighted_sentiment_sum": 1.038,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "wifi": {
+        "aspect": "wifi",
+        "score": 0.4324,
+        "confidence": 0.1622,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"elevator\", \"extra_bed\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"internet\", \"laundry\", \"microwave\", \"pool\", \"tv\"]",
+        "review_mention_count": 18,
+        "weighted_sentiment_sum": -0.793,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pool": {
+        "aspect": "pool",
+        "score": 0.5334,
+        "confidence": 0.2623,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"elevator\", \"extra_bed\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"internet\", \"laundry\", \"microwave\", \"pool\", \"tv\"]",
+        "review_mention_count": 47,
+        "weighted_sentiment_sum": -0.401,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "parking": {
+        "aspect": "parking",
+        "score": 0.4371,
+        "confidence": 0.2904,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"elevator\", \"extra_bed\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"internet\", \"laundry\", \"microwave\", \"pool\", \"tv\"]",
+        "review_mention_count": 60,
+        "weighted_sentiment_sum": -2.546,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "breakfast": {
+        "aspect": "breakfast",
+        "score": 0.6039,
+        "confidence": 0.3564,
+        "description_claimed": true,
+        "description_value": "[\"ac\", \"breakfast_included\", \"business_services\", \"elevator\", \"extra_bed\", \"fitness_equipment\", \"free_parking\", \"frontdesk_24_hour\", \"internet\", \"laundry\", \"microwave\", \"pool\", \"tv\"]",
+        "review_mention_count": 104,
+        "weighted_sentiment_sum": 1.691,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "noise": {
+        "aspect": "noise",
+        "score": 0.3691,
+        "confidence": 0.2803,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 55,
+        "weighted_sentiment_sum": -2.144,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "room_condition": {
+        "aspect": "room_condition",
+        "score": 0.4883,
+        "confidence": 0.4685,
+        "description_claimed": true,
+        "description_value": "hotel in ocala with a 24-hour fitness center and an indoor pool<br>an indoor pool, a 24-hour fitness center, and a snack bar/deli are available at this hotel. free continental breakfast, free wifi in ",
+        "review_mention_count": 254,
+        "weighted_sentiment_sum": -6.205,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "check_in": {
+        "aspect": "check_in",
+        "score": 0.4117,
+        "confidence": 0.3034,
+        "description_claimed": true,
+        "description_value": "[\"front desk staff will greet guests on arrival at the property\", \"if you are planning to arrive after 10:00 pm please contact the property in advance using the information on the booking confirmation",
+        "review_mention_count": 67,
+        "weighted_sentiment_sum": -3.441,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "pet_policy": {
+        "aspect": "pet_policy",
+        "score": 0.5666,
+        "confidence": 0.329,
+        "description_claimed": true,
+        "description_value": "[\"2 total pets\", \"Pets allowed for an extra charge of USD 37.63 per pet, per day\", \"Pets cannot be left unattended\", \"Restrictions apply; for more information contact the property at the number on the",
+        "review_mention_count": 83,
+        "weighted_sentiment_sum": 0.261,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "value": {
+        "aspect": "value",
+        "score": 0.4693,
+        "confidence": 0.2414,
+        "description_claimed": true,
+        "description_value": "2.5",
+        "review_mention_count": 39,
+        "weighted_sentiment_sum": -1.213,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "location": {
+        "aspect": "location",
+        "score": 0.5604,
+        "confidence": 0.3467,
+        "description_claimed": true,
+        "description_value": "located in ocala, |MASK| inn & |MASK| by |MASK|, ocala southwest is in a shopping district. paddock mall and i-75 super flea market are worth checking out if shopping is on the agenda, while those wis",
+        "review_mention_count": 96,
+        "weighted_sentiment_sum": 0.092,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "temperature": {
+        "aspect": "temperature",
+        "score": 0.4597,
+        "confidence": 0.473,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 263,
+        "weighted_sentiment_sum": -3.153,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "bathroom": {
+        "aspect": "bathroom",
+        "score": 0.2705,
+        "confidence": 0.3688,
+        "description_claimed": false,
+        "description_value": "",
+        "review_mention_count": 115,
+        "weighted_sentiment_sum": -7.858,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      },
+      "safety": {
+        "aspect": "safety",
+        "score": 0.4092,
+        "confidence": 0.1942,
+        "description_claimed": true,
+        "description_value": "[\"alcohol is not served at this property\", \"children under 15 years old are not allowed in the swimming pool or fitness facility without adult supervision\", \"the property has connecting/adjoining room",
+        "review_mention_count": 25,
+        "weighted_sentiment_sum": -1.306,
+        "last_confirmed_days_ago": 730,
+        "is_stale": true,
+        "is_missing": false
+      }
+    }
+  }
+}

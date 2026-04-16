@@ -1,0 +1,22 @@
+.DS_Store
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.local
+
+# Local-only hackathon data drops
+WAIAI Hack-AI-thon Resources/data/Reviews_PROC_negative.csv

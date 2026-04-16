@@ -1,0 +1,490 @@
+{
+  "run_metadata": {
+    "analysis_strategy": "semantic_discovery",
+    "generated_at": "2026-04-15T03:46:39.595057+00:00",
+    "embedding_model": "text-embedding-3-small",
+    "label_model": "gpt-5.4-nano",
+    "budget_limit_usd": 1.0,
+    "estimated_cost_usd": 0.0065,
+    "actual_cost_usd": 0.0032,
+    "usage": {
+      "embedding_input_tokens": 27640,
+      "label_input_tokens": 6755,
+      "label_output_tokens": 1064
+    }
+  },
+  "hotels": [
+    {
+      "eg_property_id": "110f01b8ae518a0ee41047bce5c22572988a435e10ead72dc1af793bba8ce0b0",
+      "property": {
+        "city": "Pompei",
+        "province": "",
+        "country": "Italy",
+        "star_rating": "",
+        "guestrating_avg_expedia": "8.4"
+      },
+      "negative_review_count": 7,
+      "themes": [
+        {
+          "theme_key": "small_poorly_equipped_rooms",
+          "theme_label": "small, poorly equipped rooms",
+          "theme_summary": "Guests report rooms that feel more like a campsite than a hotel, with limited space and inadequate furnishings/amenities (e.g., no proper wardrobe).",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 0.286,
+          "snippet_mentions": 5,
+          "average_cluster_similarity": 0.801,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "sono camere di un campeggio non un hotel non ha le caratteristiche di un hotel le camere sono piccole senza un armadio e fredde",
+            "sono camere piccole con modesto arredamento e riscaldamento inadeguato",
+            "non è un hotel"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "3216b1b7885bffdb336265a8de7322ba0cd477cfb3d4f99d19acf488f76a1941",
+      "property": {
+        "city": "Bell Gardens",
+        "province": "California",
+        "country": "United States",
+        "star_rating": "2.0",
+        "guestrating_avg_expedia": "8.4"
+      },
+      "negative_review_count": 110,
+      "themes": [
+        {
+          "theme_key": "dirty_rooms_and_bad_odors",
+          "theme_label": "dirty rooms and bad odors",
+          "theme_summary": "Multiple reviews report rooms that are unclean/filthy and have strong unpleasant smells (including cigarette smoke and other odors), often in non-smoking rooms.",
+          "review_mentions": 79,
+          "share_of_negative_reviews": 0.718,
+          "snippet_mentions": 166,
+          "average_cluster_similarity": 0.754,
+          "source_cluster_ids": [
+            "c1",
+            "c3",
+            "c7"
+          ],
+          "example_snippets": [
+            "the room itself was dirty",
+            "the hotel room was filthy, and smelled bad",
+            "the room was unclean"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "3b984f3ba8df55b2609a1e33fd694cf8407842e1d833c9b4d993b07fc83a2820",
+      "property": {
+        "city": "San Isidro de El General",
+        "province": "San José",
+        "country": "Costa Rica",
+        "star_rating": "3.5",
+        "guestrating_avg_expedia": "8.6"
+      },
+      "negative_review_count": 1,
+      "themes": [
+        {
+          "theme_key": "short_stay_suitability",
+          "theme_label": "short stay suitability",
+          "theme_summary": "Some guests indicate the property is only suitable for a very brief stay (e.g., “only good for one night”), suggesting limited comfort or value for longer visits.",
+          "review_mentions": 1,
+          "share_of_negative_reviews": 1.0,
+          "snippet_mentions": 1,
+          "average_cluster_similarity": 1.0,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "only good for one night"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "7d027ef72c02eaa17af3c993fd5dba50d17b41a6280389a46c13c7e2c32a5b06",
+      "property": {
+        "city": "Ocala",
+        "province": "Florida",
+        "country": "United States",
+        "star_rating": "2.5",
+        "guestrating_avg_expedia": "6.6"
+      },
+      "negative_review_count": 163,
+      "themes": [
+        {
+          "theme_key": "dirty_rooms_and_poor_housekeeping",
+          "theme_label": "dirty rooms and poor housekeeping",
+          "theme_summary": "Multiple reviews report rooms not being cleaned during the stay and generally dirty conditions, including guests having to clean areas themselves or request supplies.",
+          "review_mentions": 131,
+          "share_of_negative_reviews": 0.804,
+          "snippet_mentions": 321,
+          "average_cluster_similarity": 0.701,
+          "source_cluster_ids": [
+            "c1",
+            "c6",
+            "c7"
+          ],
+          "example_snippets": [
+            "i didn't like the fact , that the staff didn't clean the room my entire stay",
+            "once i checked in later, the room was horrible",
+            "the room was dirty"
+          ]
+        },
+        {
+          "theme_key": "noise_from_highway_interstate_location",
+          "theme_label": "noise from highway/interstate location",
+          "theme_summary": "Guests consistently describe the property as extremely noisy due to its proximity to I-75/expressway, affecting day and night rest.",
+          "review_mentions": 17,
+          "share_of_negative_reviews": 0.104,
+          "snippet_mentions": 22,
+          "average_cluster_similarity": 0.732,
+          "source_cluster_ids": [
+            "c4",
+            "c8"
+          ],
+          "example_snippets": [
+            "this hotel is immediately off an exit for highway i-75, so was very noisy during the day and night",
+            "hotel's location is on a very busy/noisy street and 200 feet from interstate 75",
+            "very noisy also since it is by the interstate"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "823fb2499b4e37d99acb65e7198e75965d6496fd1c579f976205c0e6179206df",
+      "property": {
+        "city": "Rome",
+        "province": "RM",
+        "country": "Italy",
+        "star_rating": "",
+        "guestrating_avg_expedia": "9.0"
+      },
+      "negative_review_count": 19,
+      "themes": [
+        {
+          "theme_key": "excessive_heat_sun_exposure_in_rooms",
+          "theme_label": "excessive heat/sun exposure in rooms",
+          "theme_summary": "Guests report rooms becoming extremely warm due to direct sunlight, with opening windows not providing relief.",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 0.105,
+          "snippet_mentions": 2,
+          "average_cluster_similarity": 0.915,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "the room is very very warm due to the sun shining to the room",
+            "our room was literally 90 degrees and opening the window with full sun doesn't help"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "9a0043fd4258a1286db1e253ca591662b3aac849da12d0d4f67e08b8f59be65f",
+      "property": {
+        "city": "Bochum",
+        "province": "Bochum",
+        "country": "Germany",
+        "star_rating": "",
+        "guestrating_avg_expedia": "8.4"
+      },
+      "negative_review_count": 4,
+      "themes": []
+    },
+    {
+      "eg_property_id": "db38b19b897dbece3e34919c662b3fd66d23b615395d11fb69264dd3a9b17723",
+      "property": {
+        "city": "Broomfield",
+        "province": "Colorado",
+        "country": "United States",
+        "star_rating": "4.0",
+        "guestrating_avg_expedia": "9.2"
+      },
+      "negative_review_count": 55,
+      "themes": [
+        {
+          "theme_key": "dirty_rooms_and_poor_room_condition",
+          "theme_label": "dirty rooms and poor room condition",
+          "theme_summary": "Multiple reviews describe rooms in disrepair and not properly cleaned (e.g., food/trays dirty, hair on sheets/tub, refrigerator not working, missing/incorrect in-room items).",
+          "review_mentions": 39,
+          "share_of_negative_reviews": 0.709,
+          "snippet_mentions": 78,
+          "average_cluster_similarity": 0.787,
+          "source_cluster_ids": [
+            "c1",
+            "c8"
+          ],
+          "example_snippets": [
+            "while they were prompt and courteous in fixing the issues, for a resort style hotel, it was not worth the value",
+            "hotel room was in total disrepair",
+            "switched rooms the 2nd night and the room was dirty with food on the floor right by the bed, tray with ice bucket was really dirty, refrigerator not working and had to ask for an alarm clock wasn't in the room"
+          ]
+        },
+        {
+          "theme_key": "maintenance_issues_hot_tub_pool_and_showers",
+          "theme_label": "maintenance issues (hot tub/pool and showers)",
+          "theme_summary": "Guests report broken or poorly functioning facilities, including a hot tub/jacuzzi that was out of order/filthy and showers with no hot water or only scalding/insufficient warmth.",
+          "review_mentions": 8,
+          "share_of_negative_reviews": 0.145,
+          "snippet_mentions": 9,
+          "average_cluster_similarity": 0.821,
+          "source_cluster_ids": [
+            "c2",
+            "c4"
+          ],
+          "example_snippets": [
+            "the hot tub/ jacuzzi tub was cold, outdoors and no bubbles, ice machine out of order on my floor, no spa available during my stay",
+            "the hot tub was out of order during our stay",
+            "hot tub didn't work"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "e52d67a758ce4ad0229aacc97e5dfe89984c384c51a70208f9e0cc65c9cd4676",
+      "property": {
+        "city": "Bangkok",
+        "province": "Bangkok",
+        "country": "Thailand",
+        "star_rating": "3.0",
+        "guestrating_avg_expedia": "8.8"
+      },
+      "negative_review_count": 2,
+      "themes": [
+        {
+          "theme_key": "noise_doors_ac_voices",
+          "theme_label": "noise (doors/AC/voices)",
+          "theme_summary": "Guests report significant noise from slamming doors, air conditioners, and voices (housekeeping/other guests), leading to poor sleep.",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 1.0,
+          "snippet_mentions": 6,
+          "average_cluster_similarity": 0.93,
+          "source_cluster_ids": [
+            "c1",
+            "c4",
+            "c5"
+          ],
+          "example_snippets": [
+            "egalement hôtel extrêmement bruyant, les portes des chambres claquent ret ésonnent très fortement jusque dans la chambre et dans le couloir des parties communes, les voix des femmes de ménage le matin et certains vacanciers la nuit m'ont tenu éveillé",
+            "hôtel bien situé par rapport a khan san road par contre hôtel très bruyant à cause des climatiseurs,ce qui enlève tout son charme) direction non réactif à ma demande de réglages des climatiseurs",
+            "passons l'accueil déplorable, la chambre est bien défraîchie, la porte de la salle de bain est dans un état moisie / crade et cerise sur le gâteau, un énorme cafard se baladait sur le sol de cette salle de bain"
+          ]
+        },
+        {
+          "theme_key": "poor_hostile_front_desk_service",
+          "theme_label": "poor/hostile front desk service",
+          "theme_summary": "Check-in interactions are described as unhelpful or unfriendly, including minimal/abrupt responses and lack of engagement.",
+          "review_mentions": 1,
+          "share_of_negative_reviews": 0.5,
+          "snippet_mentions": 2,
+          "average_cluster_similarity": 0.887,
+          "source_cluster_ids": [
+            "c2"
+          ],
+          "example_snippets": [
+            "alors je répondis oui et ensuite elle m'a dit un seul mot passeport sans faire aucune phrase et toujours sans aucun sourire elle m'a donné la clé en disant second floor",
+            "premièrement, l'arrivée à l'hôtel, la gardienne de prison qui est derrière son comptoir, n'a pas répondu à mon bonjour en thai, elle ne sourit pas et m'a dit trois mots sous forme d'interrogatoire you have booking ?"
+          ]
+        },
+        {
+          "theme_key": "access_amenities_issues_no_elevator",
+          "theme_label": "access/amenities issues (no elevator)",
+          "theme_summary": "The hotel lacks an elevator, and staff reportedly refused assistance with carrying luggage.",
+          "review_mentions": 1,
+          "share_of_negative_reviews": 0.5,
+          "snippet_mentions": 1,
+          "average_cluster_similarity": 1.0,
+          "source_cluster_ids": [
+            "c3"
+          ],
+          "example_snippets": [
+            "j'ai eu la folie de demander gentiment s'il serait possible d'avoir une aide pour monter mon gros sac car il n'y a pas d'ascenseur et pour seule réponse un no !"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "f2d8d9557208d58577e9df7ff34e42bf86fb5b10fdfae0c3040d14c374a2a2b9",
+      "property": {
+        "city": "New Smyrna Beach",
+        "province": "Florida",
+        "country": "United States",
+        "star_rating": "2.0",
+        "guestrating_avg_expedia": "7.2"
+      },
+      "negative_review_count": 20,
+      "themes": [
+        {
+          "theme_key": "room_condition_outdated_insufficient_housekeeping",
+          "theme_label": "room condition outdated/insufficient housekeeping",
+          "theme_summary": "Multiple reviews describe rooms as old/outdated and in some cases missing housekeeping elements such as maid service or linen exchange.",
+          "review_mentions": 15,
+          "share_of_negative_reviews": 0.75,
+          "snippet_mentions": 41,
+          "average_cluster_similarity": 0.742,
+          "source_cluster_ids": [
+            "c1",
+            "c3"
+          ],
+          "example_snippets": [
+            "the room was terrible",
+            "room was old & outdated",
+            "was very disappointed in the rooms"
+          ]
+        },
+        {
+          "theme_key": "dirty_poorly_maintained_rooms_smell_windows",
+          "theme_label": "dirty/poorly maintained rooms (smell, windows)",
+          "theme_summary": "Guests report unpleasant odors and visible lack of upkeep, including dirty/salt-crusted or unclean windows and broken blinds/sliding-door issues.",
+          "review_mentions": 3,
+          "share_of_negative_reviews": 0.15,
+          "snippet_mentions": 4,
+          "average_cluster_similarity": 0.901,
+          "source_cluster_ids": [
+            "c7",
+            "c6"
+          ],
+          "example_snippets": [
+            "odd smell inside room and window/sliding door blinds are broken",
+            "terrible smells in the room",
+            "sat on couch and could barely see outside pool and ocean, windows looked like they have not been cleaned in months"
+          ]
+        },
+        {
+          "theme_key": "post_hurricane_construction_repairs",
+          "theme_label": "post-hurricane construction/repairs",
+          "theme_summary": "Some guests note the property is still under construction or undergoing repairs related to hurricane damage, affecting the condition of the building/rooms.",
+          "review_mentions": 2,
+          "share_of_negative_reviews": 0.1,
+          "snippet_mentions": 3,
+          "average_cluster_similarity": 0.842,
+          "source_cluster_ids": [
+            "c5"
+          ],
+          "example_snippets": [
+            "major work was being done to the building from the damage down by hurricanes irma & matthew",
+            "dirty, and still under construction from irma",
+            "being repaired after 2 hurricanes and not ready the location was great and the staff outstanding"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "fa014137b3ea9af6a90c0a86a1d099e46f7e56d6eb33db1ad1ec4bdac68c3caa",
+      "property": {
+        "city": "Monterey",
+        "province": "California",
+        "country": "United States",
+        "star_rating": "2.5",
+        "guestrating_avg_expedia": "8.8"
+      },
+      "negative_review_count": 18,
+      "themes": [
+        {
+          "theme_key": "dirty_rooms_and_poor_bathroom_cleanliness",
+          "theme_label": "dirty rooms and poor bathroom cleanliness",
+          "theme_summary": "Multiple reviews cite visibly dirty rooms and bathrooms, including stains, mold, and used/disgusting toiletries.",
+          "review_mentions": 4,
+          "share_of_negative_reviews": 0.222,
+          "snippet_mentions": 5,
+          "average_cluster_similarity": 0.768,
+          "source_cluster_ids": [
+            "c1"
+          ],
+          "example_snippets": [
+            "bath tub was disgusting, old towels and crappy soaps and shampoo",
+            "the rooms are dated and very dirty!",
+            "room had dirty used hand soap bar"
+          ]
+        },
+        {
+          "theme_key": "street_noise_and_lack_of_sleep",
+          "theme_label": "street noise and lack of sleep",
+          "theme_summary": "Several guests report rooms facing the street with loud vehicle/truck noise at night, making it difficult to sleep.",
+          "review_mentions": 4,
+          "share_of_negative_reviews": 0.222,
+          "snippet_mentions": 4,
+          "average_cluster_similarity": 0.792,
+          "source_cluster_ids": [
+            "c2"
+          ],
+          "example_snippets": [
+            "i give such low review because we got the room face to foam st, very noisy at night time, vehicle sounds are terrible, i can't fall asleep, in the morning 4am",
+            "one side of the hotel is very close to street that has loud trucks/cars passing by at night",
+            "the beds were very hard did not sleep good especially from the street noise smallest bathroom i have ever seen in a hotel could not even use the cart for luggage do to many different levels of rooms on each floor and elevator only stops at one level not very convenient at all i personally would not stay a second time sorry"
+          ]
+        }
+      ]
+    },
+    {
+      "eg_property_id": "ff26cdda236b233f7c481f0e896814075ac6bed335e162e0ff01d5491343f838",
+      "property": {
+        "city": "Frisco",
+        "province": "Texas",
+        "country": "United States",
+        "star_rating": "3.5",
+        "guestrating_avg_expedia": "9.2"
+      },
+      "negative_review_count": 50,
+      "themes": [
+        {
+          "theme_key": "missing_amenities_and_housekeeping_room_upkeep",
+          "theme_label": "missing amenities and housekeeping/room upkeep",
+          "theme_summary": "Reviews mention lack of an in-room refrigerator and inadequate housekeeping/room cleaning (e.g., needing to request cleaning for multiple days).",
+          "review_mentions": 29,
+          "share_of_negative_reviews": 0.58,
+          "snippet_mentions": 59,
+          "average_cluster_similarity": 0.74,
+          "source_cluster_ids": [
+            "c1",
+            "c4"
+          ],
+          "example_snippets": [
+            "no one came to clean the room for 3 days and front desk staff when explain issue seemed careless",
+            "my issue with this stay was that we had to request our room to be cleaned",
+            "housekeepers were more friendly than front desk we will not return here"
+          ]
+        },
+        {
+          "theme_key": "maintenance_problems_in_bathrooms",
+          "theme_label": "maintenance problems in bathrooms",
+          "theme_summary": "Guests report shower leaks and improper shower door mounting that caused water pooling and bathroom flooding.",
+          "review_mentions": 6,
+          "share_of_negative_reviews": 0.12,
+          "snippet_mentions": 6,
+          "average_cluster_similarity": 0.796,
+          "source_cluster_ids": [
+            "c2"
+          ],
+          "example_snippets": [
+            "the ceiling had a leak in the shower and was dripping down from it",
+            "the shower door was not mounted correctly and the water leaked all over the bathroom floor",
+            "shower was pooling water"
+          ]
+        },
+        {
+          "theme_key": "dirty_rooms_and_stained_bedding",
+          "theme_label": "dirty rooms and stained bedding",
+          "theme_summary": "Multiple reviews cite visible cleanliness issues such as stained sheets/bed coverings and dirty or stained bedding.",
+          "review_mentions": 4,
+          "share_of_negative_reviews": 0.08,
+          "snippet_mentions": 7,
+          "average_cluster_similarity": 0.862,
+          "source_cluster_ids": [
+            "c5",
+            "c6"
+          ],
+          "example_snippets": [
+            "i noticed the decorative bed covering on both beds were dirty",
+            "the sheets had some unpleasant stains",
+            "on the day of checkout we noticed yellow fluid stains on 1 bed and old dried blood drips on the other"
+          ]
+        }
+      ]
+    }
+  ]
+}

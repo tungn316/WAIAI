@@ -5,6 +5,7 @@ import json
 import os
 from pathlib import Path
 from typing import Any
+import urllib.request
 
 import pandas as pd
 import streamlit as st
@@ -25,8 +26,8 @@ from question_generator import (
     generate_question_candidates,
 )
 
-PROFILES_PATH = Path("outputs/property_profiles.json")
-DESCRIPTIONS_PATH = Path("data/Description_PROC.csv")
+PROFILES_URL = "https://raw.githubusercontent.com/tungn316/WAIAI/refs/heads/main/src/outputs/property_profiles.json"
+DESCRIPTIONS_URL = "https://raw.githubusercontent.com/tungn316/WAIAI/refs/heads/main/src/data/Description_PROC.csv"
 
 _WILLINGNESS_LABELS: dict[Willingness, tuple[str, str]] = {
     Willingness.LOW: ("🟡", "Quick mode — we'll keep it short"),
@@ -46,16 +47,18 @@ _WILLINGNESS_LABELS: dict[Willingness, tuple[str, str]] = {
 # ---------------------------------------------------------------------------
 
 
-@st.cache_data
 def load_profiles() -> dict:
-    if not PROFILES_PATH.exists():
+    try:
+        with urllib.request.urlopen(PROFILES_URL) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        st.error(f"Failed to load property profiles: {e}")
         return {}
-    return json.loads(PROFILES_PATH.read_text(encoding="utf-8"))
 
 
 @st.cache_data
 def load_descriptions() -> pd.DataFrame:
-    return pd.read_csv(DESCRIPTIONS_PATH)
+    return pd.read_csv(DESCRIPTIONS_URL)
 
 
 profiles = load_profiles()

@@ -45,8 +45,6 @@ _WILLINGNESS_LABELS: dict[Willingness, tuple[str, str]] = {
 # Data loading
 # ---------------------------------------------------------------------------
 
-load_dotenv()
-
 
 @st.cache_data
 def load_profiles() -> dict:

@@ -2,13 +2,14 @@
 """Central configuration for all pipeline stages."""
 
 import os
+import streamlit as st
 
 # --- Stage 1: Belief Score (Temporal Decay) ---
 BELIEF_DECAY_LAMBDA = 0.002  # exp(-lambda * days), ~50% at 1 year
 BELIEF_MIN_THRESHOLD = 0.05  # drop reviews below this freshness
 
 # --- Stage 2: Embedding + Clustering ---
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", "")
 EMBEDDING_MODEL = "text-embedding-3-small"
 
 TOPIC_CLUSTERS = {

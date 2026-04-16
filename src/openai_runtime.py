@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import streamlit as st
 from dataclasses import replace
 from enum import StrEnum
 from typing import Any
@@ -208,7 +209,7 @@ def _request_openai_decision(
 
 
 def _resolve_api_key(api_key: str | None) -> str:
-    resolved = api_key or os.environ.get("OPENAI_API_KEY")
+    resolved = api_key or st.secrets.get("OPENAI_API_KEY")
     if resolved:
         return resolved
     raise RuntimeError("OPENAI_API_KEY is not set.")

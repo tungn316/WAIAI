@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import streamlit as st
 import re
 import urllib.error
 import urllib.request
@@ -203,13 +204,13 @@ def generate_question_candidates(
     Generate 3–4 raw question candidates from the LLM.
     Enriches each with candidate_id, property_priority, offline_rank.
     """
-    key = api_key or os.environ.get("OPENAI_API_KEY")
+    key = api_key or st.secrets.get("OPENAI_API_KEY")
     if not key:
         raise RuntimeError("OPENAI_API_KEY is required.")
 
     url = (
         base_url
-        or os.environ.get("OPENAI_BASE_URL")
+        or st.secrets.get("OPENAI_BASE_URL")
         or "https://api.openai.com/v1"
     ).rstrip("/")
 

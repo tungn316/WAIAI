@@ -515,7 +515,7 @@ if (
 
                 if (
                         use_openai_selection
-                        and os.getenv("OPENAI_API_KEY")
+                        and st.secrets.get("OPENAI_API_KEY")
                         ):
                     result: QuestionSelectionResult = (
                             select_followup_questions_with_openai(

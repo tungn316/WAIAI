@@ -37,7 +37,6 @@ pydantic==2.13.1
 pydantic_core==2.46.1
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
-python-dotenv==1.2.2
 referencing==0.37.0
 requests==2.33.1
 rpds-py==0.30.0
